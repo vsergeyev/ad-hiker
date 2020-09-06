@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Private Advertisements indexer, React JS, AWS Amplify
+
+This application was create for the purposes to learn AWS Amplify deployment.
+Hope this will be helpful for anybody else.
+
+Here some  references to read  and try:
+
+ * https://github.com/facebook/create-react-app
+ * https://rapidapi.com/blog/how-to-deploy-a-react-app/#5-how-to-deploy-a-react-app-on-aws-amplify
 
 ## Available Scripts
 
