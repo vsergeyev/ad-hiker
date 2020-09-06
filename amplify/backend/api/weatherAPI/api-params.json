@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/weather",
+            "lambdaFunction": "callWeatherApi",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/weather"
+        }
+    ],
+    "resourceName": "weatherAPI",
+    "apiName": "weatherAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "callWeatherApi"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-adhiker-dev-110854-authRole",
+        "unAuthRoleName": "amplify-adhiker-dev-110854-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "callWeatherApi",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
